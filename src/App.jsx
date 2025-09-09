@@ -1,4 +1,5 @@
 import AutocompleteGithub from './explorations/AutocompleteGithub';
+import SuspenseDemo from './explorations/SuspenseDemo';
 
 function App() {
   const handleSelect = (username) => {
@@ -11,9 +12,12 @@ function App() {
           <h1 className="text-2xl font-semibold text-gray-800 ">Welcome to Advanced React</h1>
           <p className="text-sm text-gray-500">Experiment area for advanced React patterns</p>
         </div>
-        <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
+        <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6 mb-4">
           <AutocompleteGithub onSelectItem={handleSelect} />
-        </div>  
+        </div>
+        <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6 mb-4">
+          <SuspenseDemo />
+        </div>
       </div>
     </div>
   );
