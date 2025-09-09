@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": [
+    "biome:recommended"
+  ],
+  "language": {
+    "javascript": {
+      "jsx": true
+    }
+  },
+  "files": ["src/**/*.{js,jsx,ts,tsx}", "*.js", "*.jsx", "*.ts", "*.tsx"]
+}
