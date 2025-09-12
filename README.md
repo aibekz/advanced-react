@@ -1,1 +1,1 @@
-# React Explorations
+# ReactJS Explorations
